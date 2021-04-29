@@ -67,9 +67,6 @@ class ChatList extends Component {
                       secondary={
                         <React.Fragment>
                           <Typography component="span" color="textPrimary">
-                            {_chat.messages.map((msg) => {
-                              console.log("_chat.message.message", msg.message);
-                            })}
                             {_chat.messages[
                               _chat.messages.length - 1
                             ].message.substring(0, 30) + " ..."}
