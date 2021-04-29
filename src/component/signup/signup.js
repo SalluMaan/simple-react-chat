@@ -176,7 +176,7 @@ class Signup extends Component {
           >
             Already Have An Account??
           </Typography>
-          <Link className={classes.logInLink} to="/login">
+          <Link className={classes.logInLink} to="/">
             Login In!
           </Link>
         </Paper>
